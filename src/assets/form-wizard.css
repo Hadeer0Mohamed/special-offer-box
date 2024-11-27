@@ -1,0 +1,86 @@
+/* start form-wizard style */
+.step_form {
+    text-align: start;
+    padding: 20px;
+  }
+  .togell_eye {
+    right: 22px;
+    top: 40% !important;
+  }
+  .input-group-text,
+  .form-control,
+  .form-select {
+    height: 60px !important;
+  }
+  .input-group-text {
+    background-color: transparent !important;
+  }
+  .btn-next {
+    min-height: 60px;
+    min-width: 250px;
+    margin-top: 20px;
+  }
+  .btn-back {
+    min-height: 60px;
+    min-width: 150px;
+    margin-top: 20px;
+  }
+  
+  .active .smooth-border-left-to-right {
+    display: none !important;
+  }
+  .smooth-border-left-to-right {
+    top: 50%;
+    border: 4px solid #2196f3 !important ;
+  }
+  .btn-primary {
+    background-color: #2196f3 !important;
+  }
+  
+  .react-form-wizard .wizard-nav-pills > li > a {
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  }
+  .checked .wizard-icon-container {
+    background-color: #fff !important;
+    border: 4px solid #2196f3 !important ;
+  }
+  .checked .wizard-icon-container .wizard-icon i {
+    color: #2196f3 !important;
+  }
+  .active .checked .wizard-icon-container {
+    background-color: #fff !important;
+    border: 4px solid red !important ;
+  }
+  .active .checked .wizard-icon-container .wizard-icon svg {
+    color: red !important;
+  }
+  .active .checked .wizard-icon-container .wizard-icon i {
+    color: red !important;
+  }
+  .btn-light {
+    background-color: #eae8e9 !important;
+    color: #ccc;
+  }
+  @media (min-width: 1000px) {
+    .wizard-card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  @media (max-width: 999px) {
+    .wizard-card-footer {
+      display: grid;
+      justify-content: center;
+    }
+    .wizard-card-footer button {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+  
+  .react-form-wizard .clearfix:after {
+    display: none !important;
+  }
